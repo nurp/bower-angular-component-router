@@ -289,7 +289,7 @@ function CONST_EXPR(expr) {
 }
 
 function isPresent (x) {
-  return !!x;
+  return x !== null && x !== undefined;
 }
 
 function isBlank (x) {
